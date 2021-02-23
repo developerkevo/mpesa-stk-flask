@@ -16,7 +16,7 @@ def api_message():
 
 timestamp = str(time.strftime("%Y%m%d%H%M%S"))
 
-password = base64.b64encode(bytes(u'601754' + 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919' + timestamp, 'UTF-8'))
+password = base64.b64encode(bytes(u'174379' + 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919' + timestamp, 'UTF-8'))
 
 
 consumer_key = "eJepaVL23aXzJLniwrsd1ZvvNi3b2riE"
@@ -39,7 +39,7 @@ request = {
       "Amount": "", #pass this from the form
       "PartyA": "",# pass this from the form
       "PartyB": "174379",
-      "PhoneNumber": "254799989486",
+      "PhoneNumber": "",
       "CallBackURL": "https://sandbox.safaricom.co.ke/mpesa/",
       "AccountReference": "SCO 306 Demo STK push",
       "TransactionDesc": "Group 8 Mpesa test"
